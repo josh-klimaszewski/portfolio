@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import ScrollToNext from '../../components/ScrollToNext';
 
+
 const AboutPage = () => {
     
   

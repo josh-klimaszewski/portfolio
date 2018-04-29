@@ -40,7 +40,7 @@ class Nav extends Component {
       
   
       const stickyClass = this.state.isSticky ? 'sticky' : '';
-      const stickyStyles = this.state.isSticky;
+      
       return (
         <nav
           className={stickyClass}

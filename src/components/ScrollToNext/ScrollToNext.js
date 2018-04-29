@@ -14,8 +14,7 @@ class ScrollToNext extends Component {
       return (
         <div className="scroll-to-next" onClick={(e) => this.scrollToNext()}>
           <div className="arrow bounce" >
-            
-          <i class="material-icons">arrow_downward</i>
+            <i className="material-icons">arrow_downward</i>
           </div>
         </div>
       );
