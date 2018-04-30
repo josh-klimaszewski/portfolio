@@ -1,16 +1,19 @@
 .portfolio-page {
   padding-top: 2rem;
+  margin: 0 5%;
   min-height: 100vh;
   display: flex;
   flex: 0 1 auto;
   flex-direction: column;
   justify-content: center; }
   .portfolio-page h1 {
-    padding: 1rem 0;
-    font-size: 3rem; }
+    margin-top: 10%;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 5%; }
   .portfolio-page .content-grid {
     flex: auto; }
   .portfolio-page .portfolio-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; }
+    justify-content: space-between; }

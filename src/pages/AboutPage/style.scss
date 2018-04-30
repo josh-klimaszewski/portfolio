@@ -1,7 +1,9 @@
 
 .about-page {
+    margin: 0 5%;
     padding-top: 2rem;
     min-height: 100vh;
+    
     display: flex;
     flex: 0 1 auto;
 	flex-direction: column;
@@ -10,7 +12,9 @@
   
 
     h1 {
-        padding: 1rem 0;
+        margin-top: 10%;
+        font-family: 'Do Hyeon', sans-serif;
+        
         font-size: 3rem;
     }
 
@@ -25,8 +29,10 @@
         line-height: 1.5rem;
 
         p {
+            
+            font-family: 'Roboto', sans-serif;
             font-weight: 300;
-            padding: 0.5rem 0;
+            
         }
 
         

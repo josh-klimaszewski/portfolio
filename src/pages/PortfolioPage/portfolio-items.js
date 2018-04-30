@@ -6,17 +6,23 @@ const PortfolioItems = () => {
         {
             name: 'micro-blog',
             description: 'micro-blog description',
-            url: 'http://bit.ly/micro-blog-jk'
+            img: 'https://image.ibb.co/hFwHKH/Screen_Shot_2018_04_29_at_7_01_02_PM.png',
+            url: 'http://bit.ly/micro-blog-jk',
+            code: 'https://github.com/josh-klimaszewski/micro-blog'
         },
         {
             name: 'telephone-callers',
             description: 'telephone-callers description',
-            url: 'http://telephone-callers.surge.sh/'
+            img: 'https://image.ibb.co/jASreH/Screen_Shot_2018_04_29_at_6_58_27_PM.png',
+            url: 'http://telephone-callers.surge.sh/',
+            code: 'https://github.com/josh-klimaszewski/telephone-callers'
         },
         {
             name: 'get-a-ways',
             description: 'get-a-ways description',
-            url: 'http://bit.ly/getaways-demo'
+            img: 'https://image.ibb.co/jK5Nmx/Screen_Shot_2018_04_29_at_7_00_33_PM.png',
+            url: 'http://bit.ly/getaways-demo',
+            code: 'https://github.com/jjwint/vacaApp'
         }
     ];
     const portfolio = portfolioData.map((portfolioItem) => {
@@ -26,11 +32,13 @@ const PortfolioItems = () => {
             name={portfolioItem.name}
             description={portfolioItem.description}
             url={portfolioItem.url}
+            img={portfolioItem.img}
+            code={portfolioItem.code}
             />
         );
     });
     return (
-        <div>
+        <div className="portfolio-wrapper">
             {portfolio}
         </div>
     );

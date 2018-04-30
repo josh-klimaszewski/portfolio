@@ -48,28 +48,22 @@ class Nav extends Component {
             this.nav = elem;
           }}
         >
-          
-          <style jsx="true">
-            {`
-              .menu__item:hover {
-                border-bottom: 2px solid black;
-              }
-            `}
-          </style>
           <div className="menu">
-            <div
+            <p
               className="menu__item active"
               onClick={(e) => this.scrollToPage('.about-page')}
             >
               About
-            </div>
-            <div
+            </p>
+            <p
               className="menu__item"
               onClick={(e) => this.scrollToPage('.portfolio-page')}
             >
               Portfolio
-            </div>
+            </p>
+            
           </div>
+          <div className="menu-border"></div>
         </nav>
       );
     }

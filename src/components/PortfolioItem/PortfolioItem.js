@@ -2,11 +2,22 @@ import React from 'react';
 
 import './style.css';
 
-const PortfolioItem = ({ name, description, url }) => {
+const PortfolioItem = ({ name, description, url, img, code}) => {
   return (
     <div className="portfolio-item">
-        <a className="portfolio-item_title" src={url}>{name}</a>
-        <p className="portfolio-item_desc">{description}</p>
+        <div className="portfolio-item_name">
+            <p>{name}</p>
+        </div>
+        <div>
+            <img className="portfolio-item_img" src={img}/>
+        </div>
+        <div className="portfolio-item_desc">
+            <p className="portfolio-item_desc">{description}</p>
+        </div>
+        <div className="portfolio-item_links">
+            <a href={url}>Site</a>
+            <a href={code}>Code</a>
+        </div>
     </div>
   );
 };

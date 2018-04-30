@@ -8,9 +8,7 @@ const PortfolioPage = () => {
         <div className="portfolio-page" >
             <div className="content-grid">
                 <h1 >Portfolio</h1>
-                <div className="portfolio-wrapper">
-                    <PortfolioItems />
-                </div>
+                <PortfolioItems /> 
             </div>
             <ScrollToPrevious pageSelector=".about-page" />
         </div>
