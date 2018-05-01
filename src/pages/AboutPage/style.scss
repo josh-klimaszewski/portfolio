@@ -18,20 +18,49 @@ $bright-yellow: #F6AA1C;
         font-size: 3rem;
     }
     .about-content {
-        min-height: 60vh;
-        display: flex;
-        flex-direction: column;
         
-        justify-content: space-around;
+        margin: 0 auto;
+        // display: flex;
+        // flex-direction: column;
+        padding: 2%;
+        justify-content: center;
+        border: 2px solid $smoky-black;
+        border-radius: 20px;
+        background-color: white;
+        img {
+            width: 50%;
+            height: 50%;
+            float: left;
+            border: 2px solid $smoky-black;
+            border-radius: 20px;
+            margin-right: 2%;
+            
+            
+        }
+       
         
         
         
-        p {
+        p, h2 {
             font-family: 'Roboto', sans-serif;
             font-size: 2rem;
             font-weight: 900;
             padding: 0.5rem;
-            color: $rust;
+            color: $smoky-black;
+            a {
+                text-decoration: none;
+                color: $bright-yellow;
+                &:hover {
+                    color: $rust;
+                }
+            }
+            
+        }
+        p {
+            color: $smoky-black;
+        }
+        h2 {
+            color: $rufous;
         }
     }
 

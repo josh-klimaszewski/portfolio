@@ -51,3 +51,11 @@ $bright-yellow: #F6AA1C;
     }
   }
 }
+@media only screen and (max-width: 320px) {
+    .social-icons {
+        font-size: 2rem;
+        a {
+            margin: 0 2rem;
+        }
+    }
+}

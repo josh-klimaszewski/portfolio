@@ -17,8 +17,9 @@ $bright-yellow: #F6AA1C;
     flex: 1 0 auto;
     flex-direction: column;
     justify-content: center;
-    padding: 3.25rem 1.5rem 1rem;
-    text-align: center;
+    align-content: center;
+    // padding: 3.25rem 1.5rem 1rem;
+    // text-align: center;
 
     
 
@@ -51,4 +52,18 @@ $bright-yellow: #F6AA1C;
       }
     }
   }
+}
+@media only screen and (max-width: 320px) {
+    .landing-page {
+        main {
+            .intro-wrapper {
+                .intro-name {
+                    font-size: 3rem;
+                }
+                .tagline {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
 }

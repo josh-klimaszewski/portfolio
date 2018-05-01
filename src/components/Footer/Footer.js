@@ -7,8 +7,7 @@ const Footer = () => {
     <footer>
       <div className="content-grid">
         <div>
-            Made by 
-            <a 
+            Made by <a 
             href="https://github.com/josh-klimaszewski" 
             target="_blank" 
             rel="noopener noreferrer" >

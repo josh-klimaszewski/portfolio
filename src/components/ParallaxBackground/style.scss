@@ -7,17 +7,18 @@ $bright-yellow: "#F6AA1C";
 
 @function random-color() {
     $value: $bright-yellow;
-    @if random(5) == 1 {
+    $num: random(5);
+    @if $num == 1 {
      $value: $french-puce;
     }
-    @else if random(5) == 2{
+    @else if $num == 2{
       $value: $rufous;
     }
-    @else if random(5) == 3{
+    @else if $num == 3{
       $value: $rust;
     }
-    @else if random(5) == 4{
-      $value: $rust;
+    @else if $num == 4{
+      $value: $smoky-black;
     }
     @else {
       $value: $bright-yellow;

@@ -45,8 +45,8 @@ $bright-yellow: #F6AA1C;
             color: $rust;
         }
         img {
-            width: 480px;
-            height: 240px;
+            max-width: 300px;
+            max-height: 225nppx;
             text-align: center;
             border: 2px solid $smoky-black;
         }
@@ -59,3 +59,13 @@ $bright-yellow: #F6AA1C;
         
     }
 }
+@media only screen and (max-width: 320px) {
+    .portfolio-item {
+        a {
+            img {
+                max-width: 200px;
+            }
+        }
+    }
+}
+

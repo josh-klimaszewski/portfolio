@@ -9,8 +9,7 @@
     flex: 1 0 auto;
     flex-direction: column;
     justify-content: center;
-    padding: 3.25rem 1.5rem 1rem;
-    text-align: center; }
+    align-content: center; }
     .landing-page main .intro-wrapper {
       flex: auto;
       display: flex;
@@ -30,3 +29,9 @@
         font-size: 2rem;
         margin: 1.5rem 0;
         font-weight: 300; }
+
+@media only screen and (max-width: 320px) {
+  .landing-page main .intro-wrapper .intro-name {
+    font-size: 3rem; }
+  .landing-page main .intro-wrapper .tagline {
+    font-size: 1.5rem; } }

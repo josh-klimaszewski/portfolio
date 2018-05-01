@@ -10,11 +10,12 @@ const AboutPage = () => {
       <div className="about-page" > 
         <h1>About</h1>
         <div className="about-content">
-            <p>Hello!</p>
-            <p>I'm a developer, artist, and musician from Detroit MI.</p>
-            <p>My work strives to be concise and accessible.</p>
+            <img src="https://image.ibb.co/jHd5tn/joshk_1.jpg"></img>
+            <h2>Hello!</h2>
+            <p>I'm a developer living in Hamtramck MI.</p>
+            <p>My work strives to be concise, responsive, and accessible.</p>
             <p>React, SASS, and Ruby on Rails are some of my favorite tools for development.</p>
-            <p>If you have a company, pet project, or great idea, don't hesitate to contact me!</p>
+            <p>If you have a company, pet project, or great idea, don't hesitate to <a href="mailto:joshua.klimaszewski@gmail.com">contact</a> me!</p>
         </div>
         
         <ScrollToNext pageSelector=".portfolio-page" />
