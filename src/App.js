@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import ParallaxBackground from './components/ParallaxBackground';
 import IndexPage from './pages/IndexPage';
 import AboutPage from './pages/AboutPage';
 import PortfolioPage from './pages/PortfolioPage';
@@ -10,6 +11,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <ParallaxBackground />
         <IndexPage />
         <AboutPage />
         <PortfolioPage />

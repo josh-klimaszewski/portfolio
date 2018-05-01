@@ -3,7 +3,10 @@
   .scroll-to-next .arrow {
     text-align: center;
     margin: 0 auto;
-    padding-bottom: 0.5rem; }
+    padding-bottom: 0.5rem;
+    color: #BC3908; }
+    .scroll-to-next .arrow .material-icons {
+      font-size: 300%; }
   .scroll-to-next .bounce {
     animation: bounce 2s infinite; }
 

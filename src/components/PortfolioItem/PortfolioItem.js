@@ -5,19 +5,10 @@ import './style.css';
 const PortfolioItem = ({ name, description, url, img, code}) => {
   return (
     <div className="portfolio-item">
-        <div className="portfolio-item_name">
-            <p>{name}</p>
-        </div>
-        <div>
-            <img className="portfolio-item_img" src={img}/>
-        </div>
-        <div className="portfolio-item_desc">
-            <p className="portfolio-item_desc">{description}</p>
-        </div>
-        <div className="portfolio-item_links">
-            <a href={url}>Site</a>
-            <a href={code}>Code</a>
-        </div>
+        <a href={url}><h3>{name}</h3></a>
+        <a href={url}><img src={img}/></a>
+        <p>{description}</p>
+        <a href={code} className="github">Github</a>
     </div>
   );
 };

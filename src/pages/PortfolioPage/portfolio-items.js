@@ -5,21 +5,21 @@ const PortfolioItems = () => {
     const portfolioData = [
         {
             name: 'micro-blog',
-            description: 'micro-blog description',
+            description: 'A compact blogger clone. Built with Ruby on Rails.',
             img: 'https://image.ibb.co/hFwHKH/Screen_Shot_2018_04_29_at_7_01_02_PM.png',
             url: 'http://bit.ly/micro-blog-jk',
             code: 'https://github.com/josh-klimaszewski/micro-blog'
         },
         {
             name: 'telephone-callers',
-            description: 'telephone-callers description',
+            description: 'A media hub that streams projects and videos. Built with React.',
             img: 'https://image.ibb.co/jASreH/Screen_Shot_2018_04_29_at_6_58_27_PM.png',
             url: 'http://telephone-callers.surge.sh/',
             code: 'https://github.com/josh-klimaszewski/telephone-callers'
         },
         {
             name: 'get-a-ways',
-            description: 'get-a-ways description',
+            description: 'A destination app that suggests vacation activities. Built with AngularJS.',
             img: 'https://image.ibb.co/jK5Nmx/Screen_Shot_2018_04_29_at_7_00_33_PM.png',
             url: 'http://bit.ly/getaways-demo',
             code: 'https://github.com/jjwint/vacaApp'

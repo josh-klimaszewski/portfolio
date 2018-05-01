@@ -1,0 +1,28 @@
+.social-icons {
+  padding: 0.25rem 0;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center; }
+  .social-icons a {
+    margin: 0 3.6rem; }
+    .social-icons a i {
+      color: #BC3908; }
+  .social-icons.animate-icons a {
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent; }
+    .social-icons.animate-icons a:hover, .social-icons.animate-icons a:focus, .social-icons.animate-icons a:active {
+      animation-name: icon-wobble;
+      animation-duration: 0.75s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 1; }
+
+@keyframes icon-wobble {
+  25% {
+    transform: translateY(-8px); }
+  50% {
+    transform: translateY(0px); }
+  75% {
+    transform: translateY(-4px); }
+  100% {
+    transform: translateY(0px); } }

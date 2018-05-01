@@ -1,0 +1,53 @@
+
+$border-radius: 2px;
+$smoky-black: #220901;
+$french-puce: #621708;
+$rufous: #941B0C;
+$rust: #BC3908;
+$bright-yellow: #F6AA1C;
+
+.social-icons {
+  padding: 0.25rem 0;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  
+  a {
+    margin: 0 3.6rem;
+    i {
+        color: $rust;
+    }
+  }
+
+  &.animate-icons {
+    a {
+      display: inline-block;
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+
+      &:hover,
+      &:focus,
+      &:active {
+        animation-name: icon-wobble;
+        animation-duration: 0.75s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+      }
+    }
+  }
+
+  @keyframes icon-wobble {
+    25% {
+      transform: translateY(-8px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    75% {
+      transform: translateY(-4px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}

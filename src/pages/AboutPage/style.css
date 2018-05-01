@@ -3,18 +3,21 @@
   padding-top: 2rem;
   min-height: 100vh;
   display: flex;
-  flex: 0 1 auto;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: space-between; }
   .about-page h1 {
-    margin-top: 10%;
+    margin: 5% 0;
     font-family: 'Do Hyeon', sans-serif;
+    color: #BC3908;
     font-size: 3rem; }
-  .about-page .content-grid {
-    flex: auto; }
-  .about-page .about-wrapper .about-content {
-    font-size: 0.875rem;
-    line-height: 1.5rem; }
-    .about-page .about-wrapper .about-content p {
+  .about-page .about-content {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    .about-page .about-content p {
       font-family: 'Roboto', sans-serif;
-      font-weight: 300; }
+      font-size: 2rem;
+      font-weight: 900;
+      padding: 0.5rem;
+      color: #BC3908; }

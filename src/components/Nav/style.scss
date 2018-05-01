@@ -1,7 +1,11 @@
-
+$smoky-black: #220901;
+$french-puce: #621708;
+$rufous: #941B0C;
+$rust: #BC3908;
+$bright-yellow: #F6AA1C;
 nav {
     position: fixed;
-    margin-top: 2%;
+    padding-top: 5px;
     
     top: 0;
     width: 100%;
@@ -21,17 +25,19 @@ nav {
       &__item {
           margin-left: 2%;
           font-family: 'Do Hyeon', sans-serif;
+          color: $smoky-black;
           font-weight: 500;
           font-size: 1.5rem;
       }
       &__item:hover {
-          color: red;
+          color: $rust;
           cursor: pointer;
       }
     }
     .menu-border {
         width: 90%;
         
-        border: 1px solid black;
+        border: 1px solid;
+        border-color: $smoky-black;
     }
   }

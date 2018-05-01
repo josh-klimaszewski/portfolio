@@ -1,3 +1,9 @@
+$smoky-black: #220901;
+$french-puce: #621708;
+$rufous: #941B0C;
+$rust: #BC3908;
+$bright-yellow: #F6AA1C;
+
 .scroll-to-next {
     cursor: pointer;
   
@@ -5,6 +11,11 @@
       text-align: center;
       margin: 0 auto;
       padding-bottom: 0.5rem;
+      color: $rust;
+      .material-icons {
+          font-size: 300%;
+      }
+
   
     }
   

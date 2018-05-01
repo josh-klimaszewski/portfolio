@@ -1,4 +1,8 @@
-
+$smoky-black: #220901;
+$french-puce: #621708;
+$rufous: #941B0C;
+$rust: #BC3908;
+$bright-yellow: #F6AA1C;
 
 .portfolio-page {
   padding-top: 2rem;
@@ -12,9 +16,9 @@
  
 
   h1 {
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: 'Do Hyeon', sans-serif;
-    
+    color: $rust;
     font-size: 3rem;
     margin-bottom: 5%;
   }

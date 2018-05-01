@@ -3,7 +3,10 @@
   .scroll-to-previous .arrow {
     text-align: center;
     margin: 0 auto;
-    padding-bottom: 0.5rem; }
+    padding-bottom: 0.5rem;
+    color: #BC3908; }
+    .scroll-to-previous .arrow .material-icons {
+      font-size: 300%; }
     .scroll-to-previous .arrow .scroll-text {
       text-align: center;
       font-size: 0.5rem;

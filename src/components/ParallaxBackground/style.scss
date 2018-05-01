@@ -1,0 +1,112 @@
+$smoky-black: "#220901";
+$french-puce: "#621708";
+$rufous: "#941B0C";
+$rust: "#BC3908";
+$bright-yellow: "#F6AA1C";
+
+
+@function random-color() {
+    $value: $bright-yellow;
+    @if random(5) == 1 {
+     $value: $french-puce;
+    }
+    @else if random(5) == 2{
+      $value: $rufous;
+    }
+    @else if random(5) == 3{
+      $value: $rust;
+    }
+    @else if random(5) == 4{
+      $value: $rust;
+    }
+    @else {
+      $value: $bright-yellow;
+    }
+    @return unquote($value);
+  }
+  
+  // n is number of stars required
+  @function multiple-box-shadow($n) {
+    $value: "#{random(2000)}px #{random(2000)}px";
+  
+    @for $i from 2 through $n {
+      $value: "#{$value} , #{random(2000)}px #{random(2000)}px";
+    }
+  
+    @return unquote($value);
+  }
+  
+  $shadows-small: multiple-box-shadow(700);
+  $shadows-medium: multiple-box-shadow(200);
+  $shadows-big: multiple-box-shadow(100);
+  
+  .parallax {
+    position: fixed;
+    z-index: -1;
+    
+    #stars1 {
+      width: 8px;
+      height: 8px;
+      color: random-color();
+      border-radius: 50%;
+      background: transparent;
+      box-shadow: $shadows-small;
+      animation: animStar 150s linear infinite;
+    
+      &:after {
+        content: " ";
+        position: absolute;
+        top: 2000px;
+        
+        border-radius: 50%;
+        background: transparent;
+        box-shadow: $shadows-small;
+      }
+    }
+    
+    #stars2 {
+      width: 10px;
+      height: 10px;
+      color: random-color();
+      background: transparent;
+      box-shadow: $shadows-medium;
+      animation: animStar 100s linear infinite;
+    
+      &:after {
+        content: " ";
+        position: absolute;
+        top: 2000px;
+        
+        background: transparent;
+        box-shadow: $shadows-medium;
+      }
+    }
+    
+    #stars3 {
+      width: 20px;
+      height: 3px;
+      color: random-color();
+      background: transparent;
+      box-shadow: $shadows-big;
+      animation: animStar 50s linear infinite;
+    
+      &:after {
+        content: " ";
+        position: absolute;
+        top: 2000px;
+        background: transparent;
+        box-shadow: $shadows-big;
+      }
+    }
+    
+    @keyframes animStar {
+      from {
+        transform: translateY(-2000px);
+      }
+    
+      to {
+        transform: translateY(0px);
+      }
+    }
+  }
+  

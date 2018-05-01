@@ -37,7 +37,7 @@ class ScrollTop extends Component {
     return (
       <div className="scroll-top" onClick={(e) => scrollToPageTop()}>
         <div
-          className={`arrow ${hideArrowClass}`} >
+          className={`arrow ${hideArrowClass} bounce`}  >
           <i className="material-icons">arrow_upward</i>
           <p className="to-top">To Top</p>
         </div>

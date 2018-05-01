@@ -1,4 +1,9 @@
 
+$smoky-black: #220901;
+$french-puce: #621708;
+$rufous: #941B0C;
+$rust: #BC3908;
+$bright-yellow: #F6AA1C;
 
 .landing-page {
   min-height: 100vh;
@@ -25,6 +30,7 @@
       text-align: center;
 
       > .intro-name {
+        color: $rufous;
         font-family: 'Do Hyeon', sans-serif;
         font-size: 4rem;
         font-weight: bold;
@@ -36,7 +42,8 @@
 
       > .tagline {
         font-family: 'Roboto', sans-serif;
-        font-size: 1.375rem;
+        color: $bright-yellow;
+        font-size: 2rem;
         margin: 1.5rem 0;
         font-weight: 300;
 
