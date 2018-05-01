@@ -42,11 +42,10 @@ $bright-yellow: #F6AA1C;
         
         
         p, h2 {
-            font-family: 'Roboto', sans-serif;
-            font-size: 2rem;
+            
+            font-size: 1.75rem;
             font-weight: 900;
             padding: 0.5rem;
-            color: $smoky-black;
             a {
                 text-decoration: none;
                 color: $bright-yellow;
@@ -57,9 +56,11 @@ $bright-yellow: #F6AA1C;
             
         }
         p {
+            font-family: 'Roboto', sans-serif;
             color: $smoky-black;
         }
         h2 {
+            font-family: 'Do-Hyeon', sans-serif;
             color: $rufous;
         }
     }

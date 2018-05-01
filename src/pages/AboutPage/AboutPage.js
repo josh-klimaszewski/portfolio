@@ -10,7 +10,7 @@ const AboutPage = () => {
       <div className="about-page" > 
         <h1>About</h1>
         <div className="about-content">
-            <img src="https://image.ibb.co/jHd5tn/joshk_1.jpg"></img>
+            <img src="https://image.ibb.co/bFRdW7/jk_greyscale.png"></img>
             <h2>Hello!</h2>
             <p>I'm a developer living in Hamtramck MI.</p>
             <p>My work strives to be concise, responsive, and accessible.</p>

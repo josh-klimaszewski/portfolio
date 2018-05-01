@@ -25,17 +25,17 @@
       border-radius: 20px;
       margin-right: 2%; }
     .about-page .about-content p, .about-page .about-content h2 {
-      font-family: 'Roboto', sans-serif;
-      font-size: 2rem;
+      font-size: 1.75rem;
       font-weight: 900;
-      padding: 0.5rem;
-      color: #220901; }
+      padding: 0.5rem; }
       .about-page .about-content p a, .about-page .about-content h2 a {
         text-decoration: none;
         color: #F6AA1C; }
         .about-page .about-content p a:hover, .about-page .about-content h2 a:hover {
           color: #BC3908; }
     .about-page .about-content p {
+      font-family: 'Roboto', sans-serif;
       color: #220901; }
     .about-page .about-content h2 {
+      font-family: 'Do-Hyeon', sans-serif;
       color: #941B0C; }

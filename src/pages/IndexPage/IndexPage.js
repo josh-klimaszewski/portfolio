@@ -12,7 +12,7 @@ const IndexPage = () => {
                 <div className="intro-wrapper">
                     <h1 className="intro-name">Josh Klimaszewski</h1>
                     <div className="tagline">
-                    Front End Dev || UI Design
+                    Front End Dev || Web Creator 
                     </div>
                     <SocialIcons />
                 </div>
